@@ -5,7 +5,9 @@
 Supports
 ========
 CentOS 6 and 7
+
 RHEL 6 and 7
+
 Amazon Linux
 
 Usage
