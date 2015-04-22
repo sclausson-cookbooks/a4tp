@@ -4,11 +4,12 @@ maintainer_email 'sclausson@hotmail.com'
 license          'all_rights'
 description      'Installs/Configures Automation for the People website'
 long_description 'Installs/Configures Automation for the People website for Stelligent mini-project'
-version          '0.2.0'
+version          '0.2.1'
 
 =begin
 change log
 ----------
+v 0.2.1 - fetches index.html out of the a4tp-ec2 repo instead of having a separate a4tp-web repo
 v 0.2.0 - template file method replaced by a remote_file resource which grabs index.html from Github repo - This seems like a more natrual/realistic workflow
 v 0.1.0 - initial commit - cookbook uses a template file resource to create /var/www/html/index.html on node
 =end

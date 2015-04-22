@@ -12,5 +12,5 @@ end
 
 remote_file '/var/www/html/index.html' do
 	action :create
-	source "https://raw.githubusercontent.com/sclausson/a4tp-web/master/index.html"
+	source "https://raw.githubusercontent.com/sclausson/a4tp-ec2/master/index.html"
 end
